@@ -191,21 +191,6 @@ print("Shape of training data: ", X_train.shape)
 print("Shape of test data    : ", X_test.shape )
 print("-------------------------------------------------------------------")
 
-#Vemos una predicion y la evaluamos.
-for model_file in glob.glob("*.model"):
-  print("Model file: ", model_file)
-  model = load_model(model_file)
-  pred = model.predict(X_test)
-  pred = [1 if y>=0.5 else 0 for y in pred] #Threshold, transforming probabilities to either 0 or 1 depending if the probability is below or above 0.5
-  scores = model.evaluate(X_test, y_test)
-  print()
-  print("Original  : {0}".format(", ".join([str(x) for x in y_test])))
-  print()
-  print("Predicted : {0}".format(", ".join([str(x) for x in pred])))
-  print() 
-  print("Scores    : loss = ", scores[0], " acc = ", scores[1])
-  print("-------------------------------------------------------------------")
-
 #Naive Bayes, aquì seleccionamos los 5 mejores de todos nuestros datos, omitiendo los valores categoricos
 X=df3.drop(['class','rbc','pc','pcc','ba','htn','dm','cad','appet','pe','ane'], axis=1)
 y=df3['class']
