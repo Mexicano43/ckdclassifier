@@ -1,0 +1,5 @@
+#Vemos que tuvimos mayor exito con Naive Bayes por lo que usaremos este para predecir.
+#                 ['sg', 'al', 'hemo', 'pcv', 'rc']
+print(gnb.predict([[1.02,        2,     10.5,       35,         4.6],
+                   [1.015,        1,    9.5,       28,       4.1] ]))
+#0-CKD, 1-NotCKD
