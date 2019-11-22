@@ -1,0 +1,42 @@
+Mineria de datos: metodología  de  análisis inteligente  de  datos  que  permitan  descubrir  patrones 
+de datos para generar conocimiento útil.
+
+Unidad tipificada: Nos permite centrar las variables que no tienen un valor fijo asignandole un valor 
+promedio sacado con las variables que tienen valor fijo, gracias a esto evitamos el ruido que nos puede
+provocar aquellas que no tienen un valor fijo1.
+
+Redes neuronales convolucionales: son un tipo
+especifico de red neuronal para el procesamiento de datos que posean una topologia tipo malla
+
+Este tipo de red emplea la operacion
+matematica convolucion en lugar de la multiplicacion de matrices
+
+Deep learning: consiste en neuronas artificiales en redes de varias capas que a 
+través de algoritmos pueden enseñar a entrenar un software
+
+Redes bayesianas: constituyen una herramienta formal que permite modelar procesos 
+caracterizados por la incertidumbre.
+
+Con una red bayesiana se puede establecer un modelo completo sobre un conjunto de variables aleatorias 
+y sus relaciones. 
+Dicho modelo se puede utilizar para estimar probabilidades de ciertas variables de la red, 
+que se denominan variables de estado, cuando son fijadas otras variables, llamadas variables de evidencia.
+
+
+
+
+
+Biblografias:  
+Murillo, D., Saavedra, D., & Quintero, E. (2018). Extracción de datos de perfiles en Google Scholar 
+utilizando un algoritmo en el lenguaje R para hacer minería de datos. 
+Retrieved from http://search.ebscohost.com/login.aspx?direct=true&db=edsbas&AN=edsbas.11220D1C&lang=es&site=eds-live&scope=site
+
+
+Dunn, T. (2019). Deep learning. Salem Press Encyclopedia of Science. Retrieved from 
+http://search.ebscohost.com/login.aspx?direct=true&db=ers&AN=119214353&lang=es&site=eds-live&scope=site
+
+Sergio Sánchez Santiesteban. (2018). Recuperacion de imagenes por contenido usando descriptores generados por Redes Neuronales Convolucionales. 
+Revista Cubana de Ciencias Informáticas, (4), 78. Retrieved from http://search.ebscohost.com/login.aspx?direct=true&db=edsdoj&AN=edsdoj.b4006cc4c9cd4d21b27fb7122bac1c65&lang=es&site=eds-live&scope=site
+
+Redes bayesianas y diagnóstico médico. Una forma diferente de aprender probabilidades condicionadas. (2019).
+Retrieved from http://search.ebscohost.com/login.aspx?direct=true&db=edsbas&AN=edsbas.BFDBD590&lang=es&site=eds-live&scope=site
