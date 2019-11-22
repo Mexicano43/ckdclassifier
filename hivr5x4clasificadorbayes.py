@@ -223,7 +223,7 @@ plt.figure(figsize=(12,12))
 plt.title('Pearson Correlation of Features', y=1.05, size=15)
 sb.heatmap(df3[used_features].astype(float).corr(),linewidths=0.1,vmax=1.0, square=True, cmap=colormap, linecolor='white', annot=True)
 
-X_train, X_test = train_test_split(dataframe, test_size=0.2, random_state=6) 
+X_train, X_test = train_test_split(df3, test_size=0.2, random_state=6) 
 y_train =X_train["class"]
 y_test = X_test["class"]
 
